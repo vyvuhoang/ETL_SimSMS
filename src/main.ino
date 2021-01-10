@@ -10,11 +10,15 @@ char ArrSavingPhoneNumber[5][20];
   "1234325235",
   "1234325235",
   "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
 }
 int checkFullElement (ArrSavingPhoneNumber);
 //Insert to empty element
 //When SMS comming
-//Check if phone number in saving array
+//Check if phone number in saving arraygit config --global user.name "John Doe"
 int compareToKnownPhoneNumber (char phoneNumber){
   for (int i = 0; i < 5; i++)
   {
