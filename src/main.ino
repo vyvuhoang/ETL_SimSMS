@@ -2,6 +2,33 @@
 #define ledPin (23)
 #define ledPin (24)
 #define ledPin (25)
+
+char ArrSavingPhoneNumber[5][20];
+
+{
+  "1234325235",
+  "1234325235",
+  "1234325235",
+  "1234325235",
+  "1234325235"
+}
+int checkFullElement (ArrSavingPhoneNumber);
+//Insert to empty element
+//When SMS comming
+//Check if phone number in saving array
+int compareToKnownPhoneNumber (char phoneNumber){
+  for (int i = 0; i < 5; i++)
+  {
+    /* code */
+    strstr(ArrSavingPhoneNumber, phoneNumber);
+    if YES:
+      return true;
+    if NO:
+    //Do nothing
+  }
+  return false;
+  
+}
 void setup() 
 {
   Serial.begin(9600);
@@ -16,7 +43,7 @@ int period = 1000;
 unsigned long time_now = 0;
 char x;
 char msg[150];
-int i = 0;
+int i = 0
 bool isOK = false;
 char sdt[] = "394937686";
 const char insert[6] = "IN";
