@@ -11,6 +11,13 @@ char ArrSavingPhoneNumber[5][20];
   "1234325235",
   "1234325235",
   "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
+  "1234325235"
 }
 int checkFullElement (ArrSavingPhoneNumber);
 //Insert to empty element
